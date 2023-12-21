@@ -1,0 +1,36 @@
+/* タイピングゲーム全体 */
+body {
+  font-size: 6em;
+  text-align: center;
+}
+
+/* ゲームの残りの秒数が表示されるタイマーの領域 */
+.count {
+  margin: 0;
+  font-weight: bold;
+  color: #888;  
+}
+
+/* テキストが表示される領域 */
+.wrap {
+  margin-top: 20px;
+  padding: 80px 40px;
+  background: #666;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* 正しくタイプされた時のテキスト */
+.typed {
+  color: lightgreen;
+}
+
+/* ミスタイプの時のテキスト */
+.mistyped {
+  background-color: red;
+}
+
+/* 現在のスコア */
+#score-now {
+  display: none;
+}
